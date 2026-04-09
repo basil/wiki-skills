@@ -81,6 +81,8 @@ updated: <today>
 
 ### 6. Update entity and concept pages
 
+**Entities** are named things: people, organizations, models, papers, tools. **Concepts** are abstract ideas: attention mechanism, backpropagation, transfer learning. Tag pages accordingly with `tags: [entity]` or `tags: [concept]`.
+
 For each entity/concept touched by this source:
 
 - **Page exists:** Read it, add to or update the relevant section, add this source to frontmatter `sources` list, update `updated` date
