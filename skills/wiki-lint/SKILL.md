@@ -33,7 +33,7 @@ Read `wiki/index.md`, `wiki/overview.md`, and all files in `wiki/pages/`. Build 
 
 - **Orphan pages** — pages with zero inbound `[[slug]]` links from any other page (excluding index.md and overview.md)
 - **Contradictions** — claims in one page that directly conflict with claims in another (look for the same entity described differently: dates, counts, names, relationships)
-- **Stale claims** — pages not updated within 90 days that contain "current", "latest", "recent", "state-of-the-art", or year literals two or more years old
+- **Stale claims** — pages whose claims have been superseded by a newer source. For each page, check whether any source ingested after it was last updated discusses the same entities/concepts and makes claims that update or contradict its content
 
 **🔵 Info (consider addressing)**
 
@@ -77,8 +77,10 @@ updated: <today>
   Recommendation: <which to trust, or "investigate further">
 
 ## 🟡 Stale Claims
-- [[page]] last updated <date>, contains "latest" — may be outdated
-  Fix: re-verify claims or add a "as of <date>" qualifier
+- [[page]] last updated <date>, superseded by [[newer-source]] (ingested <date>)
+  Claim: "<original claim>"
+  Updated by: "<newer claim from newer source>"
+  Fix: update the page via wiki-update with [[newer-source]] as the source
 
 ## 🔵 Missing Concept Pages
 - [[slug]] referenced N times but no page exists
