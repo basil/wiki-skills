@@ -21,7 +21,7 @@ Verify the wiki directory structure is intact: `wiki/`, `wiki/pages/`, `wiki/ind
 
 The source can be:
 - **File path** — read it directly; copy to `raw/<filename>` if not already there
-- **URL** — use the `browse` skill to fetch it; save to `raw/<slug>.<ext>`
+- **URL** — use `WebFetch` to fetch it; save to `raw/<slug>.<ext>`
 - **Pasted text** — use what was provided
 
 ### 2. Read the source in full
