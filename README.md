@@ -1,15 +1,18 @@
 # wiki-skills
 
-A Claude Code plugin implementing [Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — a persistent, compounding knowledge base maintained by your LLM.
+Local Claude Code skills implementing [Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — a persistent, compounding knowledge base maintained by your LLM.
 
 Instead of RAG (re-deriving answers from raw documents every time), this system builds and maintains a **wiki**: a structured, interlinked collection of markdown files that gets richer with every source you add and every question you ask.
 
 ## Installation
 
+Copy the skill directories to your Claude Code skills folder:
+
 ```bash
-/plugin marketplace add kfchou/wiki-skills
-/plugin install wiki-skills@kfchou/wiki-skills
+cp -r skills/wiki-* ~/.claude/skills/
 ```
+
+The skills will be available in your next Claude Code session.
 
 ## Skills
 
