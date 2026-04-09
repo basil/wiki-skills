@@ -11,6 +11,8 @@ Audit the wiki. Produce a categorized report. Offer concrete fixes. Log the oper
 
 Find `SCHEMA.md` (search from cwd upward, or `~/wikis/`). If not found, tell the user to run `wiki-init` first. Read it to get wiki root path and conventions.
 
+Verify the wiki directory structure is intact: `wiki/`, `wiki/pages/`, `wiki/index.md`, `wiki/log.md`, and `wiki/overview.md` must all exist. If anything is missing, tell the user and suggest running `wiki-init` to repair.
+
 ## Process
 
 ### 1. Build the page inventory

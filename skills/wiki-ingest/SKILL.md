@@ -13,6 +13,8 @@ Search for `SCHEMA.md` starting from the current directory and upward, or in com
 
 Read `SCHEMA.md` to learn: wiki root path, page frontmatter format, cross-reference convention, log entry format, index category taxonomy.
 
+Verify the wiki directory structure is intact: `wiki/`, `wiki/pages/`, `wiki/index.md`, `wiki/log.md`, and `wiki/overview.md` must all exist. If anything is missing, tell the user and suggest running `wiki-init` to repair.
+
 ## Process
 
 ### 1. Accept the source
