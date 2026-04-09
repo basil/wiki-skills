@@ -46,6 +46,7 @@ After answering, say:
 
 If yes:
 - Write the page with frontmatter: `tags: [query, analysis]`, `sources: [all cited slugs]`
+- Run a backlink audit: scan all existing pages in `wiki/pages/` for mentions of entities/concepts introduced in this answer. Add `[[new-slug]]` references where appropriate.
 - Add entry to `wiki/index.md` under the correct category (Analyses or similar)
 - Append to `wiki/log.md`:
   ```
